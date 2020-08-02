@@ -64,7 +64,7 @@ h3 {
   padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid brown;
+  /* outline: 1px solid brown; */
 }
 
 /* Section */
@@ -152,7 +152,7 @@ h3 {
 
 .hero {
   text-align: center;
-  background-color: springgreen;
+  /* background-color: springgreen; */
 }
 
 .hero-title {
@@ -196,11 +196,13 @@ h3 {
 
 .section-title {
   margin-bottom: 50px;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+
+  
 }
 
 .feature-list {
@@ -211,7 +213,7 @@ h3 {
 
 .feature-list > .item {
   width: 270px;
-  background-color: teal;
+  /* background-color: teal; */
   text-align: center;
   /* margin-top: 94px;
   margin-bottom: 94px; */
@@ -430,22 +432,23 @@ a {
 }
 
 .description {
-  background-color: lightgreen;
+  /* background-color: lightgreen; */
   padding: 24px 20px;
   width: 370px;
-  border-right: 1px solid #eeeeee;
+  /* border-right: 1px solid #eeeeee; 
   border-left: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;*/
   border-top: none;
 }
 
 .section-title {
   /* margin-top: 20px; */
-  margin-bottom: 4px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+  /* margin-bottom: 4px; */
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 
