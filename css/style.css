@@ -157,6 +157,7 @@ h3 {
 height: 600px;
 margin-left: auto;
 margin-right: auto;
+padding-top: 200px;
 }
 
 .hero-title {
@@ -196,13 +197,13 @@ margin-right: auto;
   color: #ffffff;
 }
 .container-hero {
-  width: 1200px;
-  padding-right: 15px;
+  width: 1600px;
+  padding-right: 15px; 
   padding-left: 15px;
-  padding-top: 200px;
+  /* padding-top: 200px; */
   margin-left: auto;
   margin-right: auto;
-  /* outline: 1px solid brown; */
+  outline: 1px solid brown; */
 }
 /* <!--Преимушества--> */
 
