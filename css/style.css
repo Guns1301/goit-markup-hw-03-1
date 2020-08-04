@@ -154,7 +154,7 @@ h3 {
   text-align: center;
   background-color: rgba(47, 48, 58, 0.8); 
   /* width: 1600px; */
-height: 600px;
+/* height: 600px; */
 
 margin-left: auto;
 margin-right: auto;
@@ -216,10 +216,10 @@ padding-bottom: 200px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
-  
   letter-spacing: 0.03em;
-
-  
+  }
+.container{
+  justify-content: center;
 }
 
 .feature-list {
@@ -244,14 +244,16 @@ padding-bottom: 200px;
 }
 
 
-.list-title {
-  margin-top: 30px;
+.features-title {
+  margin-top: 0;
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.42;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  
 }
 
 .section .description {
@@ -399,9 +401,11 @@ padding-bottom: 200px;
 
 .button-container {
   display: flex;
-  justify-content: center;
+  justify-content:center;
+  margin-top: 0;
   margin-bottom: 50px;
 }
+
 
 .button-container .item {
   /* display: list-item; */
@@ -478,7 +482,6 @@ a {
 .portfolio-title {
   margin-top: 0px;
   margin-bottom: 4px;
-  /* text-align: center; */
   font-weight: bold;
   font-size: 36px;
   /* line-height: 42px; */
