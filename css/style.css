@@ -155,16 +155,16 @@ h3 {
   background-color: rgba(47, 48, 58, 0.8); 
   /* width: 1600px; */
 height: 600px;
+
 margin-left: auto;
 margin-right: auto;
 padding-top: 200px;
+padding-bottom: 200px;
 }
 
 .hero-title {
-   /* margin-top: 200px; */ */
-   /* margin-bottom: 30px; */ */
-  /* padding-top: 200px; */
-  /* padding-bottom: 30px; */
+  margin-top: 0;
+  margin-bottom: 30px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -182,7 +182,6 @@ padding-top: 200px;
 
 .hero-button {
   display: inline-block;
-  
   padding: 10px 32px;
   border-radius: 4px;
   min-width: 200px;
@@ -197,13 +196,13 @@ padding-top: 200px;
   color: #ffffff;
 }
 .container-hero {
-  width: 1600px;
+  /* width: 1600px; */
   padding-right: 15px; 
   padding-left: 15px;
   /* padding-top: 200px; */
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid brown; */
+  /* outline: 1px solid brown; */
 }
 /* <!--Преимушества--> */
 
@@ -212,11 +211,12 @@ padding-top: 200px;
 }
 
 .section-title {
+  text-align: center;
   margin-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
+  
   letter-spacing: 0.03em;
 
   
@@ -226,6 +226,7 @@ padding-top: 200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  background-color: ;
 }
 
 .container {
@@ -234,13 +235,14 @@ padding-top: 200px;
 
 .feature-list > .item {
   width: calc((100% - 90px) / 4);
-  /* background-color: khaki; */
+  /* background-color: khaki;   */
   display: inline;
   padding: 0;
 
   /* margin-top: 94px;
   margin-bottom: 94px; */
 }
+
 
 .list-title {
   margin-top: 30px;
@@ -473,19 +475,19 @@ a {
   box-sizing: inherit;
 }
 
-.section-title-list {
-  /* margin-top: 20px; */
-  /* margin-bottom: 4px; */
+.portfolio-title {
+  margin-top: 0px;
+  margin-bottom: 4px;
   /* text-align: center; */
   font-weight: bold;
-  /* font-size: 36px; */
+  font-size: 36px;
   /* line-height: 42px; */
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   width: 322px;
-height: 36px;
-left: 639px;
-top: 576px;
+  height: 36px;
+  left: 639px;
+  top: 576px;
 
 
 font-size: 18px;
