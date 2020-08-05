@@ -254,6 +254,36 @@ padding-bottom: 200px;
 }
 
 
+/* иконки в преимуществах */
+.feature-list .item::before {
+display: block;
+content: "";
+height: 120px;
+background: #F5F4FA;
+border-radius: 4px;
+background-repeat: no-repeat;
+/* background-size: contain; */
+background-position: center;
+}
+
+.item.icon-antena::before {
+  background-image: url(../images/Vector.svg);
+}
+.item.icon-clock::before{
+  background-image: url(../images/Vector-2.svg);
+}
+.item.icon-comp::before{
+  background-image: url(../images/Vector-3.svg);
+}
+.item.icon-astro::before{
+  background-image: url(../images/Vector-4.svg);
+}
+
+
+
+
+
+
 .features-title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -262,7 +292,7 @@ padding-bottom: 200px;
   line-height: 1.42;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
+padding-top: 30px;
   
 }
 
@@ -598,6 +628,18 @@ line-height: 36px;
   font-style: normal;
   text-decoration: none;
 }
+
+.contacts-item::before {    
+  width: 20px;
+height: 20px;
+background-color: turquoise;
+content: "hot";
+margin-right: 40px;
+background-size: contain;
+}
+
+
+ */
 
 /* join */
 .join-menu {
