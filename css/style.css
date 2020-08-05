@@ -151,13 +151,22 @@ h3 {
 /* Hero*/
 
 .hero {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   background-color: rgba(47, 48, 58, 0.8); 
-  /* width: 1600px; */
-/* height: 600px; */
 
-margin-left: auto;
-margin-right: auto;
+  background-image: 
+  linear-gradient( rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8) ),
+  url('../images/Hero-optemize.jpg');
+
+  background-repeat: no-repeat;
+  background-position: center ;
+
+
+
 padding-top: 200px;
 padding-bottom: 200px;
 }
@@ -218,7 +227,9 @@ padding-bottom: 200px;
   line-height: 1.16;
   letter-spacing: 0.03em;
   }
-.container{
+
+
+.container {
   justify-content: center;
 }
 
@@ -226,8 +237,7 @@ padding-bottom: 200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: ;
-}
+  }
 
 .container {
   display: flex;    flex-wrap: wrap;
@@ -514,9 +524,13 @@ line-height: 36px;
   /* columns: ; */
 }
 
+
+
+
 /* footer */
 
 .footer {
+  
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -524,14 +538,24 @@ line-height: 36px;
 
 .footer-menu {
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
+  padding-top: 0;
 }
-
+.container {
+  padding-bottom: 94px;
+   padding-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    /* outline: 2px solid tomato; */
+}
 .logo-address {
   display: block;
   margin-right: 30px;
   width: 270px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   margin-top: 60px;
   /* margin-right: 30px; */
   justify-content: left;
